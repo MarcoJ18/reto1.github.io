@@ -1,15 +1,29 @@
+
+/*All elements*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
+html{
+    height: 100%;
+}
+
+/*Container of page*/
+
 body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
     height: 100vh;
 }
 
+/*Use to repeat style*/
 
 header,main{
     display: flex;
@@ -18,43 +32,82 @@ header,main{
     flex-direction: column;
 }
 
-header,main,footer{
-    margin: 10%;
+main button, footer img{
+    cursor: pointer;
 }
 
+
+header,main,footer{
+    margin: 1rem;
+}
+
+
+/*For each section of element in HEADER*/
+
 header h1,img,p{
-    margin: 1em 3em;
+    padding: 1rem 0rem;
+
 }
 
 header h1{
-    font-size: 3em;
-    font-weight: 500;
-    letter-spacing: 0em;
     text-align: center;
-
+    font-weight: bolder;
+    font-size: 2em;
 }
-
 
 header img{
+    max-width: 10rem;
     border-radius: 50%;
-    max-width: 40%;
 }
-
 
 header p{
     text-align: center;
 }
 
+/*For each section of element in MAIN*/
+main{
+    width: 100%;
+    
+}
 
+main button{
+    margin: .5rem 0;
+    padding: 1.2rem;
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    background-color: antiquewhite;
+    color: #222;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: background-color .5s ease, color .5s ease;
+
+}
+
+main button:hover{
+    background: #222;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+/*For each section of element in FOOTTER*/
 
 footer{
     display: flex;
     align-items: center;
     justify-content: center;
- 
+    gap: 10%;
+    padding: 5%;
 }
 
 footer img{
-    width: 1rem;
+    width: 10%;
+
+
+}
+
+footer img:hover{
+    filter: opacity(25%);
 
 }
