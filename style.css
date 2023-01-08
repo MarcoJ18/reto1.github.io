@@ -111,3 +111,27 @@ footer img:hover{
     filter: opacity(25%);
 
 }
+
+
+/*Change mode*/
+
+.change-body{
+    background: #222;
+    color: #fff;
+}
+
+.change-body button{
+    color: #fff;
+    border: 1px solid #fff;
+    background: #222;
+}
+
+.change-body button:hover{
+    background: #dd0;
+    color: #222;
+    border: none;
+}
+
+.change-body footer img{
+    /*Add yellow color*/
+}
