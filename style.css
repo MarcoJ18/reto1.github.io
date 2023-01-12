@@ -113,6 +113,17 @@ footer img:hover{
 }
 
 
+/*ICON*/
+
+#nigth_mode{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5%;
+    font-size: 2rem;
+}
+
 /*Change mode*/
 
 .change-body{
@@ -136,3 +147,5 @@ footer img:hover{
     filter: hue-rotate(150deg);
     /*Add yellow color*/
 }
+
+
