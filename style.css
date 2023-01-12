@@ -98,7 +98,6 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 10%;
-    padding: 5%;
 }
 
 footer img{
@@ -124,11 +123,44 @@ footer img:hover{
     font-size: 2rem;
 }
 
+
+/*Add media query*/
+
+@media screen and (min-width: 1400px){
+    body{
+        border: 3px solid #222;
+        width: 50%;
+        margin: 10px auto;
+        height: 95vh;
+        
+    }
+
+    header p , main{
+        width: 30%;
+    }
+
+    #nigth_mode{
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 1%;
+        font-size: 2rem;
+    }
+    /*Change mode when is screen*/
+
+    .change-body{
+        border: 3px solid #fff;
+    }
+}
+
+
 /*Change mode*/
 
 .change-body{
     background: #222;
     color: #fff;
+    
 }
 
 .change-body button{
