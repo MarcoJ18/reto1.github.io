@@ -176,7 +176,7 @@ footer img:hover{
 }
 
 .change-body footer img{
-    filter: hue-rotate(1500deg);
+    filter: hue-rotate(250deg);
     /*Add yellow color*/
 }
 
