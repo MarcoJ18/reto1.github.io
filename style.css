@@ -170,13 +170,13 @@ footer img:hover{
 }
 
 .change-body button:hover{
-    background: #dd0;
+    background: #ff0;
     color: #222;
     border: none;
 }
 
 .change-body footer img{
-    filter: hue-rotate(150deg);
+    filter: brightness(300%);
     /*Add yellow color*/
 }
 
